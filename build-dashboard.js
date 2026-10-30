@@ -5,7 +5,7 @@
 const fs = require('fs');
 const path = require('path');
 const { products, categories, brands, sampleOrders, sampleCustomers, sampleDiscounts, sampleReviews, sampleBanners } = require('./sample-data');
-const { getDashboardLayout } = require('./page-helpers');
+const { getDashboardLayout } = require('./front-site/page-helpers');
 
 const outDir = path.join(__dirname, 'dashboard');
 

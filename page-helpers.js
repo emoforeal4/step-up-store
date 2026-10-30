@@ -5,7 +5,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const data = require('./sample-data');
+const data = require('../sample-data');
 
 const { products, categories, brands, sampleOrders, sampleCustomers, sampleDiscounts, sampleReviews, sampleBanners } = data;
 

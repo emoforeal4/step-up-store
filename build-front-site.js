@@ -5,7 +5,7 @@
 const fs = require('fs');
 const path = require('path');
 const { products, categories, brands, sampleOrders, sampleReviews } = require('./sample-data');
-const { getFrontendNav, getFrontendFooter, renderProductCard } = require('./page-helpers');
+const { getFrontendNav, getFrontendFooter, renderProductCard } = require('./front-site/page-helpers');
 
 const outDir = path.join(__dirname, 'front-site');
 
