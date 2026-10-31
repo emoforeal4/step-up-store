@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Customers | NOVA FORM Admin Dashboard</title>
+  <title>Reviews | NOVA FORM Admin Dashboard</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="assets/css/dashboard.css">
@@ -73,14 +73,14 @@
     </li>
   
     <li class="sidebar-item">
-      <a href="customers.html" class="sidebar-link active">
+      <a href="customers.html" class="sidebar-link ">
         <i class="bi bi-people"></i>
         <span>Customers</span>
       </a>
     </li>
   
     <li class="sidebar-item">
-      <a href="reviews.html" class="sidebar-link ">
+      <a href="reviews.html" class="sidebar-link active">
         <i class="bi bi-chat-left-quote"></i>
         <span>Reviews</span>
       </a>
@@ -183,10 +183,9 @@
         
     <div class="d-flex justify-content-between align-items-center mb-4">
       <div>
-        <h1 class="page-title">Patron Directory</h1>
-        <p class="page-subtitle">Registered customers across major Pakistani metropolitan centres.</p>
+        <h1 class="page-title">Client Reviews & Testimonials</h1>
+        <p class="page-subtitle">Moderate customer endorsements before display on product pages.</p>
       </div>
-      <button class="btn btn-sm btn-outline-secondary" onclick="alert('Export customer list');">Export CSV</button>
     </div>
 
     <div class="admin-card">
@@ -194,186 +193,152 @@
         <table class="admin-table">
           <thead>
             <tr>
-              <th>Client ID</th>
-              <th>Customer Name</th>
-              <th>Contact Info</th>
-              <th>City</th>
-              <th>Orders</th>
-              <th>Lifetime Spend</th>
-              <th>Registered</th>
+              <th>Product</th>
+              <th>Customer</th>
+              <th>Rating</th>
+              <th>Comment</th>
+              <th>Date</th>
               <th>Status</th>
-              <th>Action</th>
+              <th>Actions</th>
             </tr>
           </thead>
-          <tbody class="filterable-table-body">
+          <tbody>
             
               <tr>
-                <td><code>CUST-901</code></td>
-                <td><strong class="text-dark"><a href="customer-details.html" class="text-dark">Hamza Tariq</a></strong></td>
+                <td><strong>Regal Wholecut Oxford</strong></td>
                 <td>
-                  <div>hamza.tariq@gmail.com</div>
-                  <small class="text-muted">+92 300 8472911</small>
+                  <div>Dr. Tariq Masood</div>
+                  <small class="text-muted">Lahore</small>
                 </td>
-                <td>Lahore</td>
-                <td><span class="badge bg-light text-dark border">4 Orders</span></td>
-                <td class="fw-bold">PKR 58,996</td>
-                <td class="small text-muted">Jan 12, 2026</td>
-                <td><span class="badge-status badge-status-success">Active</span></td>
                 <td>
-                  <a href="customer-details.html" class="btn btn-sm btn-outline-dark py-1 px-2"><i class="bi bi-eye"></i> View Profile</a>
+                  <div class="text-warning small">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                </td>
+                <td class="small text-muted" style="max-width: 320px;">"The leather quality rivals top European shoemakers. Stood comfortably through an 8-hour international medical convention. Superb craftsmanship."</td>
+                <td class="small text-muted">24 Oct 2026</td>
+                <td><span class="badge bg-success bg-opacity-10 text-success">Approved</span></td>
+                <td>
+                  <div class="d-flex gap-1">
+                    <button class="btn btn-sm btn-outline-success py-1 px-2" title="Approve" onclick="alert('Review approved');"><i class="bi bi-check-lg"></i></button>
+                    <button class="btn btn-sm btn-outline-secondary py-1 px-2" title="Hide" onclick="alert('Review hidden');"><i class="bi bi-eye-slash"></i></button>
+                    <button class="btn btn-sm btn-outline-danger py-1 px-2" title="Delete" onclick="alert('Review deleted');"><i class="bi bi-trash"></i></button>
+                  </div>
                 </td>
               </tr>
             
               <tr>
-                <td><code>CUST-902</code></td>
-                <td><strong class="text-dark"><a href="customer-details.html" class="text-dark">Bilal Rehman</a></strong></td>
+                <td><strong>Sienna Burnished Penny Loafer</strong></td>
                 <td>
-                  <div>bilal.rehman@live.com</div>
-                  <small class="text-muted">+92 321 4455821</small>
+                  <div>Khurram Shahzad</div>
+                  <small class="text-muted">Karachi</small>
                 </td>
-                <td>Karachi</td>
-                <td><span class="badge bg-light text-dark border">6 Orders</span></td>
-                <td class="fw-bold">PKR 82,494</td>
-                <td class="small text-muted">Feb 04, 2026</td>
-                <td><span class="badge-status badge-status-success">Active</span></td>
                 <td>
-                  <a href="customer-details.html" class="btn btn-sm btn-outline-dark py-1 px-2"><i class="bi bi-eye"></i> View Profile</a>
+                  <div class="text-warning small">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
                 </td>
-              </tr>
-            
-              <tr>
-                <td><code>CUST-903</code></td>
-                <td><strong class="text-dark"><a href="customer-details.html" class="text-dark">Daniyal Sheikh</a></strong></td>
+                <td class="small text-muted" style="max-width: 320px;">"The hand patina in Sienna Tan looks stunning in natural daylight. Perfect fit right out of the box with zero blisters."</td>
+                <td class="small text-muted">22 Oct 2026</td>
+                <td><span class="badge bg-success bg-opacity-10 text-success">Approved</span></td>
                 <td>
-                  <div>daniyal.sheikh@outlook.com</div>
-                  <small class="text-muted">+92 333 5129988</small>
-                </td>
-                <td>Islamabad</td>
-                <td><span class="badge bg-light text-dark border">2 Orders</span></td>
-                <td class="fw-bold">PKR 20,398</td>
-                <td class="small text-muted">Mar 18, 2026</td>
-                <td><span class="badge-status badge-status-success">Active</span></td>
-                <td>
-                  <a href="customer-details.html" class="btn btn-sm btn-outline-dark py-1 px-2"><i class="bi bi-eye"></i> View Profile</a>
+                  <div class="d-flex gap-1">
+                    <button class="btn btn-sm btn-outline-success py-1 px-2" title="Approve" onclick="alert('Review approved');"><i class="bi bi-check-lg"></i></button>
+                    <button class="btn btn-sm btn-outline-secondary py-1 px-2" title="Hide" onclick="alert('Review hidden');"><i class="bi bi-eye-slash"></i></button>
+                    <button class="btn btn-sm btn-outline-danger py-1 px-2" title="Delete" onclick="alert('Review deleted');"><i class="bi bi-trash"></i></button>
+                  </div>
                 </td>
               </tr>
             
               <tr>
-                <td><code>CUST-904</code></td>
-                <td><strong class="text-dark"><a href="customer-details.html" class="text-dark">Usman Ghani</a></strong></td>
+                <td><strong>Khyber Heritage Peshawari Chappal</strong></td>
                 <td>
-                  <div>usman.ghani@yahoo.com</div>
-                  <small class="text-muted">+92 345 7788112</small>
+                  <div>Zainab Malik</div>
+                  <small class="text-muted">Islamabad</small>
                 </td>
-                <td>Faisalabad</td>
-                <td><span class="badge bg-light text-dark border">3 Orders</span></td>
-                <td class="fw-bold">PKR 39,497</td>
-                <td class="small text-muted">Apr 02, 2026</td>
-                <td><span class="badge-status badge-status-success">Active</span></td>
                 <td>
-                  <a href="customer-details.html" class="btn btn-sm btn-outline-dark py-1 px-2"><i class="bi bi-eye"></i> View Profile</a>
+                  <div class="text-warning small">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
                 </td>
-              </tr>
-            
-              <tr>
-                <td><code>CUST-905</code></td>
-                <td><strong class="text-dark"><a href="customer-details.html" class="text-dark">Zain Ul Abideen</a></strong></td>
+                <td class="small text-muted" style="max-width: 320px;">"Purchased this for my husband on Eid. He was amazed by how light yet sturdy the tyre sole is. Exceptional Pakistani artisanship."</td>
+                <td class="small text-muted">20 Oct 2026</td>
+                <td><span class="badge bg-success bg-opacity-10 text-success">Approved</span></td>
                 <td>
-                  <div>zain.abideen@gmail.com</div>
-                  <small class="text-muted">+92 301 9922334</small>
-                </td>
-                <td>Rawalpindi</td>
-                <td><span class="badge bg-light text-dark border">5 Orders</span></td>
-                <td class="fw-bold">PKR 48,995</td>
-                <td class="small text-muted">May 15, 2026</td>
-                <td><span class="badge-status badge-status-success">Active</span></td>
-                <td>
-                  <a href="customer-details.html" class="btn btn-sm btn-outline-dark py-1 px-2"><i class="bi bi-eye"></i> View Profile</a>
+                  <div class="d-flex gap-1">
+                    <button class="btn btn-sm btn-outline-success py-1 px-2" title="Approve" onclick="alert('Review approved');"><i class="bi bi-check-lg"></i></button>
+                    <button class="btn btn-sm btn-outline-secondary py-1 px-2" title="Hide" onclick="alert('Review hidden');"><i class="bi bi-eye-slash"></i></button>
+                    <button class="btn btn-sm btn-outline-danger py-1 px-2" title="Delete" onclick="alert('Review deleted');"><i class="bi bi-trash"></i></button>
+                  </div>
                 </td>
               </tr>
             
               <tr>
-                <td><code>CUST-906</code></td>
-                <td><strong class="text-dark"><a href="customer-details.html" class="text-dark">Shahmeer Khan</a></strong></td>
+                <td><strong>Highland Burnished Chelsea Boot</strong></td>
                 <td>
-                  <div>shahmeer.k@gmail.com</div>
-                  <small class="text-muted">+92 312 8844119</small>
+                  <div>Saad Qureshi</div>
+                  <small class="text-muted">Rawalpindi</small>
                 </td>
-                <td>Peshawar</td>
-                <td><span class="badge bg-light text-dark border">1 Orders</span></td>
-                <td class="fw-bold">PKR 7,499</td>
-                <td class="small text-muted">Jun 22, 2026</td>
-                <td><span class="badge-status badge-status-success">Active</span></td>
                 <td>
-                  <a href="customer-details.html" class="btn btn-sm btn-outline-dark py-1 px-2"><i class="bi bi-eye"></i> View Profile</a>
+                  <div class="text-warning small">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
                 </td>
-              </tr>
-            
-              <tr>
-                <td><code>CUST-907</code></td>
-                <td><strong class="text-dark"><a href="customer-details.html" class="text-dark">Omer Farooq</a></strong></td>
+                <td class="small text-muted" style="max-width: 320px;">"Sleek ankle profile with high quality pull tabs. Pairs effortlessly with raw denim or tailored wool trousers."</td>
+                <td class="small text-muted">16 Oct 2026</td>
+                <td><span class="badge bg-success bg-opacity-10 text-success">Approved</span></td>
                 <td>
-                  <div>omer.farooq@technext.pk</div>
-                  <small class="text-muted">+92 302 7711228</small>
-                </td>
-                <td>Lahore</td>
-                <td><span class="badge bg-light text-dark border">4 Orders</span></td>
-                <td class="fw-bold">PKR 54,996</td>
-                <td class="small text-muted">Jul 11, 2026</td>
-                <td><span class="badge-status badge-status-success">Active</span></td>
-                <td>
-                  <a href="customer-details.html" class="btn btn-sm btn-outline-dark py-1 px-2"><i class="bi bi-eye"></i> View Profile</a>
+                  <div class="d-flex gap-1">
+                    <button class="btn btn-sm btn-outline-success py-1 px-2" title="Approve" onclick="alert('Review approved');"><i class="bi bi-check-lg"></i></button>
+                    <button class="btn btn-sm btn-outline-secondary py-1 px-2" title="Hide" onclick="alert('Review hidden');"><i class="bi bi-eye-slash"></i></button>
+                    <button class="btn btn-sm btn-outline-danger py-1 px-2" title="Delete" onclick="alert('Review deleted');"><i class="bi bi-trash"></i></button>
+                  </div>
                 </td>
               </tr>
             
               <tr>
-                <td><code>CUST-908</code></td>
-                <td><strong class="text-dark"><a href="customer-details.html" class="text-dark">Asad Mehmood</a></strong></td>
+                <td><strong>Veloce Minimalist Court Sneaker</strong></td>
                 <td>
-                  <div>asad.m@gmail.com</div>
-                  <small class="text-muted">+92 300 1239874</small>
+                  <div>Ahsan Raza</div>
+                  <small class="text-muted">Faisalabad</small>
                 </td>
-                <td>Multan</td>
-                <td><span class="badge bg-light text-dark border">2 Orders</span></td>
-                <td class="fw-bold">PKR 17,498</td>
-                <td class="small text-muted">Aug 09, 2026</td>
-                <td><span class="badge-status badge-status-success">Active</span></td>
                 <td>
-                  <a href="customer-details.html" class="btn btn-sm btn-outline-dark py-1 px-2"><i class="bi bi-eye"></i> View Profile</a>
+                  <div class="text-warning small">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
                 </td>
-              </tr>
-            
-              <tr>
-                <td><code>CUST-909</code></td>
-                <td><strong class="text-dark"><a href="customer-details.html" class="text-dark">Waqas Ahmed</a></strong></td>
+                <td class="small text-muted" style="max-width: 320px;">"Clean silhouette without obnoxious branding. Highly recommend sizing true to your standard formal shoe size."</td>
+                <td class="small text-muted">12 Oct 2026</td>
+                <td><span class="badge bg-success bg-opacity-10 text-success">Approved</span></td>
                 <td>
-                  <div>waqas.ahmed@hotmail.com</div>
-                  <small class="text-muted">+92 322 9900112</small>
-                </td>
-                <td>Karachi</td>
-                <td><span class="badge bg-light text-dark border">3 Orders</span></td>
-                <td class="fw-bold">PKR 34,497</td>
-                <td class="small text-muted">Sep 01, 2026</td>
-                <td><span class="badge-status badge-status-success">Active</span></td>
-                <td>
-                  <a href="customer-details.html" class="btn btn-sm btn-outline-dark py-1 px-2"><i class="bi bi-eye"></i> View Profile</a>
+                  <div class="d-flex gap-1">
+                    <button class="btn btn-sm btn-outline-success py-1 px-2" title="Approve" onclick="alert('Review approved');"><i class="bi bi-check-lg"></i></button>
+                    <button class="btn btn-sm btn-outline-secondary py-1 px-2" title="Hide" onclick="alert('Review hidden');"><i class="bi bi-eye-slash"></i></button>
+                    <button class="btn btn-sm btn-outline-danger py-1 px-2" title="Delete" onclick="alert('Review deleted');"><i class="bi bi-trash"></i></button>
+                  </div>
                 </td>
               </tr>
             
               <tr>
-                <td><code>CUST-910</code></td>
-                <td><strong class="text-dark"><a href="customer-details.html" class="text-dark">Taimoor Ali</a></strong></td>
+                <td><strong>Mayfair Double Monk Strap</strong></td>
                 <td>
-                  <div>taimoor.ali@gmail.com</div>
-                  <small class="text-muted">+92 334 5544332</small>
+                  <div>Faraz Ahmed</div>
+                  <small class="text-muted">Lahore</small>
                 </td>
-                <td>Sialkot</td>
-                <td><span class="badge bg-light text-dark border">1 Orders</span></td>
-                <td class="fw-bold">PKR 16,999</td>
-                <td class="small text-muted">Oct 14, 2026</td>
-                <td><span class="badge-status badge-status-success">Pending Verification</span></td>
                 <td>
-                  <a href="customer-details.html" class="btn btn-sm btn-outline-dark py-1 px-2"><i class="bi bi-eye"></i> View Profile</a>
+                  <div class="text-warning small">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                </td>
+                <td class="small text-muted" style="max-width: 320px;">"Flawless brass buckles and deep rich burnish. Received countless compliments at my brother's valima ceremony."</td>
+                <td class="small text-muted">08 Oct 2026</td>
+                <td><span class="badge bg-success bg-opacity-10 text-success">Approved</span></td>
+                <td>
+                  <div class="d-flex gap-1">
+                    <button class="btn btn-sm btn-outline-success py-1 px-2" title="Approve" onclick="alert('Review approved');"><i class="bi bi-check-lg"></i></button>
+                    <button class="btn btn-sm btn-outline-secondary py-1 px-2" title="Hide" onclick="alert('Review hidden');"><i class="bi bi-eye-slash"></i></button>
+                    <button class="btn btn-sm btn-outline-danger py-1 px-2" title="Delete" onclick="alert('Review deleted');"><i class="bi bi-trash"></i></button>
+                  </div>
                 </td>
               </tr>
             
