@@ -16,7 +16,7 @@
     <!-- Admin Sidebar -->
     <aside class="admin-sidebar">
       <div class="sidebar-brand">
-        <a href="index.html" class="sidebar-brand-title text-decoration-none">
+        <a href="index.php" class="sidebar-brand-title text-decoration-none">
           NOVA FORM <span class="badge-role">ADMIN</span>
         </a>
       </div>
@@ -24,91 +24,91 @@
         <li class="sidebar-heading">Operations</li>
         
     <li class="sidebar-item">
-      <a href="index.html" class="sidebar-link ">
+      <a href="index.php" class="sidebar-link ">
         <i class="bi bi-grid"></i>
         <span>Overview</span>
       </a>
     </li>
   
     <li class="sidebar-item">
-      <a href="products.html" class="sidebar-link ">
+      <a href="products.php" class="sidebar-link ">
         <i class="bi bi-box-seam"></i>
         <span>Products</span>
       </a>
     </li>
   
     <li class="sidebar-item">
-      <a href="product-add.html" class="sidebar-link ">
+      <a href="product-add.php" class="sidebar-link ">
         <i class="bi bi-plus-circle"></i>
         <span>Add Product</span>
       </a>
     </li>
   
     <li class="sidebar-item">
-      <a href="categories.html" class="sidebar-link ">
+      <a href="categories.php" class="sidebar-link ">
         <i class="bi bi-tags"></i>
         <span>Categories</span>
       </a>
     </li>
   
     <li class="sidebar-item">
-      <a href="brands.html" class="sidebar-link ">
+      <a href="brands.php" class="sidebar-link ">
         <i class="bi bi-award"></i>
         <span>Brands</span>
       </a>
     </li>
   
     <li class="sidebar-item">
-      <a href="inventory.html" class="sidebar-link ">
+      <a href="inventory.php" class="sidebar-link ">
         <i class="bi bi-boxes"></i>
         <span>Inventory</span>
       </a>
     </li>
   
     <li class="sidebar-item">
-      <a href="orders.html" class="sidebar-link ">
+      <a href="orders.php" class="sidebar-link ">
         <i class="bi bi-cart-check"></i>
         <span>Orders</span>
       </a>
     </li>
   
     <li class="sidebar-item">
-      <a href="customers.html" class="sidebar-link ">
+      <a href="customers.php" class="sidebar-link ">
         <i class="bi bi-people"></i>
         <span>Customers</span>
       </a>
     </li>
   
     <li class="sidebar-item">
-      <a href="reviews.html" class="sidebar-link ">
+      <a href="reviews.php" class="sidebar-link ">
         <i class="bi bi-chat-left-quote"></i>
         <span>Reviews</span>
       </a>
     </li>
   
     <li class="sidebar-item">
-      <a href="banners.html" class="sidebar-link ">
+      <a href="banners.php" class="sidebar-link ">
         <i class="bi bi-images"></i>
         <span>Banners</span>
       </a>
     </li>
   
     <li class="sidebar-item">
-      <a href="website-content.html" class="sidebar-link ">
+      <a href="website-content.php" class="sidebar-link ">
         <i class="bi bi-layout-text-window-reverse"></i>
         <span>Website Content</span>
       </a>
     </li>
   
     <li class="sidebar-item">
-      <a href="settings.html" class="sidebar-link ">
+      <a href="settings.php" class="sidebar-link ">
         <i class="bi bi-gear"></i>
         <span>Settings</span>
       </a>
     </li>
   
     <li class="sidebar-item">
-      <a href="profile.html" class="sidebar-link active">
+      <a href="profile.php" class="sidebar-link active">
         <i class="bi bi-person-badge"></i>
         <span>Profile</span>
       </a>
@@ -116,10 +116,10 @@
   
       </ul>
       <div class="sidebar-footer">
-        <a href="../front-site/index.html" class="btn btn-outline-light btn-sm w-100 mb-2 text-start">
+        <a href="../front-site/index.php" class="btn btn-outline-light btn-sm w-100 mb-2 text-start">
           <i class="bi bi-box-arrow-up-right me-2"></i> Visit Storefront
         </a>
-        <a href="login.html" class="btn btn-dark btn-sm w-100 text-start text-danger">
+        <a href="login.php" class="btn btn-dark btn-sm w-100 text-start text-danger">
           <i class="bi bi-power me-2"></i> Sign Out
         </a>
       </div>
@@ -141,7 +141,7 @@
       </div>
 
       <div class="topbar-actions">
-        <a href="../front-site/index.html" target="_blank" class="btn btn-sm btn-outline-secondary d-none d-md-inline-flex align-items-center gap-1">
+        <a href="../front-site/index.php" target="_blank" class="btn btn-sm btn-outline-secondary d-none d-md-inline-flex align-items-center gap-1">
           <i class="bi bi-eye"></i> View Site
         </a>
         
@@ -152,11 +152,11 @@
           </a>
           <ul class="dropdown-menu dropdown-menu-end shadow-sm border-0" style="min-width: 280px;">
             <li><h6 class="dropdown-header text-uppercase small fw-bold">Recent Alerts</h6></li>
-            <li><a class="dropdown-item small py-2" href="orders.html"><i class="bi bi-bag-check text-success me-2"></i> New Order #NF-88291 received (PKR 14,999)</a></li>
-            <li><a class="dropdown-item small py-2" href="inventory.html"><i class="bi bi-exclamation-triangle text-warning me-2"></i> Low stock: Sahara Suede Chukka (9 left)</a></li>
-            <li><a class="dropdown-item small py-2" href="reviews.html"><i class="bi bi-star text-primary me-2"></i> New 5-star review pending approval</a></li>
+            <li><a class="dropdown-item small py-2" href="orders.php"><i class="bi bi-bag-check text-success me-2"></i> New Order #NF-88291 received (PKR 14,999)</a></li>
+            <li><a class="dropdown-item small py-2" href="inventory.php"><i class="bi bi-exclamation-triangle text-warning me-2"></i> Low stock: Sahara Suede Chukka (9 left)</a></li>
+            <li><a class="dropdown-item small py-2" href="reviews.php"><i class="bi bi-star text-primary me-2"></i> New 5-star review pending approval</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item text-center small text-primary fw-semibold" href="orders.html">View All Notifications</a></li>
+            <li><a class="dropdown-item text-center small text-primary fw-semibold" href="orders.php">View All Notifications</a></li>
           </ul>
         </div>
 
@@ -169,10 +169,10 @@
             </div>
           </a>
           <ul class="dropdown-menu dropdown-menu-end shadow-sm border-0">
-            <li><a class="dropdown-item" href="profile.html"><i class="bi bi-person me-2 text-muted"></i> My Profile</a></li>
-            <li><a class="dropdown-item" href="settings.html"><i class="bi bi-gear me-2 text-muted"></i> Store Settings</a></li>
+            <li><a class="dropdown-item" href="profile.php"><i class="bi bi-person me-2 text-muted"></i> My Profile</a></li>
+            <li><a class="dropdown-item" href="settings.php"><i class="bi bi-gear me-2 text-muted"></i> Store Settings</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item text-danger" href="login.html"><i class="bi bi-box-arrow-right me-2"></i> Logout</a></li>
+            <li><a class="dropdown-item text-danger" href="login.php"><i class="bi bi-box-arrow-right me-2"></i> Logout</a></li>
           </ul>
         </div>
       </div>

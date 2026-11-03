@@ -34,7 +34,7 @@
         </div>
 
         <div class="topbar-actions">
-          <a href="../front-site/index.html" target="_blank" class="btn btn-sm btn-outline-secondary d-none d-md-inline-flex align-items-center gap-1">
+          <a href="../front-site/index.php" target="_blank" class="btn btn-sm btn-outline-secondary d-none d-md-inline-flex align-items-center gap-1">
             <i class="bi bi-eye"></i> View Site
           </a>
 
@@ -47,13 +47,13 @@
               <li>
                 <h6 class="dropdown-header text-uppercase small fw-bold">Recent Alerts</h6>
               </li>
-              <li><a class="dropdown-item small py-2" href="orders.html"><i class="bi bi-bag-check text-success me-2"></i> New Order #NF-88291 received (PKR 14,999)</a></li>
-              <li><a class="dropdown-item small py-2" href="inventory.html"><i class="bi bi-exclamation-triangle text-warning me-2"></i> Low stock: Sahara Suede Chukka (9 left)</a></li>
-              <li><a class="dropdown-item small py-2" href="reviews.html"><i class="bi bi-star text-primary me-2"></i> New 5-star review pending approval</a></li>
+              <li><a class="dropdown-item small py-2" href="orders.php"><i class="bi bi-bag-check text-success me-2"></i> New Order #NF-88291 received (PKR 14,999)</a></li>
+              <li><a class="dropdown-item small py-2" href="inventory.php"><i class="bi bi-exclamation-triangle text-warning me-2"></i> Low stock: Sahara Suede Chukka (9 left)</a></li>
+              <li><a class="dropdown-item small py-2" href="reviews.php"><i class="bi bi-star text-primary me-2"></i> New 5-star review pending approval</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item text-center small text-primary fw-semibold" href="orders.html">View All Notifications</a></li>
+              <li><a class="dropdown-item text-center small text-primary fw-semibold" href="orders.php">View All Notifications</a></li>
             </ul>
           </div>
 
@@ -66,12 +66,12 @@
               </div>
             </a>
             <ul class="dropdown-menu dropdown-menu-end shadow-sm border-0">
-              <li><a class="dropdown-item" href="profile.html"><i class="bi bi-person me-2 text-muted"></i> My Profile</a></li>
-              <li><a class="dropdown-item" href="settings.html"><i class="bi bi-gear me-2 text-muted"></i> Store Settings</a></li>
+              <li><a class="dropdown-item" href="profile.php"><i class="bi bi-person me-2 text-muted"></i> My Profile</a></li>
+              <li><a class="dropdown-item" href="settings.php"><i class="bi bi-gear me-2 text-muted"></i> Store Settings</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item text-danger" href="login.html"><i class="bi bi-box-arrow-right me-2"></i> Logout</a></li>
+              <li><a class="dropdown-item text-danger" href="login.php"><i class="bi bi-box-arrow-right me-2"></i> Logout</a></li>
             </ul>
           </div>
         </div>
@@ -146,7 +146,7 @@
               <tbody class="filterable-table-body">
 
                 <tr>
-                  <td><strong><a href="order-details.html" class="text-dark">#NF-88291</a></strong></td>
+                  <td><strong><a href="order-details.php" class="text-dark">#NF-88291</a></strong></td>
                   <td>
                     <div>Hamza Tariq</div>
                     <small class="text-muted">Lahore, DHA Phase 5</small>
@@ -166,12 +166,12 @@
                     </span>
                   </td>
                   <td>
-                    <a href="order-details.html" class="btn btn-sm btn-outline-dark py-1 px-2" title="Manage order"><i class="bi bi-eye"></i> Details</a>
+                    <a href="order-details.php" class="btn btn-sm btn-outline-dark py-1 px-2" title="Manage order"><i class="bi bi-eye"></i> Details</a>
                   </td>
                 </tr>
 
                 <tr>
-                  <td><strong><a href="order-details.html" class="text-dark">#NF-88290</a></strong></td>
+                  <td><strong><a href="order-details.php" class="text-dark">#NF-88290</a></strong></td>
                   <td>
                     <div>Bilal Rehman</div>
                     <small class="text-muted">Karachi, Clifton Block 4</small>
@@ -191,12 +191,12 @@
                     </span>
                   </td>
                   <td>
-                    <a href="order-details.html" class="btn btn-sm btn-outline-dark py-1 px-2" title="Manage order"><i class="bi bi-eye"></i> Details</a>
+                    <a href="order-details.php" class="btn btn-sm btn-outline-dark py-1 px-2" title="Manage order"><i class="bi bi-eye"></i> Details</a>
                   </td>
                 </tr>
 
                 <tr>
-                  <td><strong><a href="order-details.html" class="text-dark">#NF-88289</a></strong></td>
+                  <td><strong><a href="order-details.php" class="text-dark">#NF-88289</a></strong></td>
                   <td>
                     <div>Daniyal Sheikh</div>
                     <small class="text-muted">Islamabad, Sector F-7/2</small>
@@ -216,12 +216,12 @@
                     </span>
                   </td>
                   <td>
-                    <a href="order-details.html" class="btn btn-sm btn-outline-dark py-1 px-2" title="Manage order"><i class="bi bi-eye"></i> Details</a>
+                    <a href="order-details.php" class="btn btn-sm btn-outline-dark py-1 px-2" title="Manage order"><i class="bi bi-eye"></i> Details</a>
                   </td>
                 </tr>
 
                 <tr>
-                  <td><strong><a href="order-details.html" class="text-dark">#NF-88288</a></strong></td>
+                  <td><strong><a href="order-details.php" class="text-dark">#NF-88288</a></strong></td>
                   <td>
                     <div>Usman Ghani</div>
                     <small class="text-muted">Faisalabad, Kohinoor City</small>
@@ -241,12 +241,12 @@
                     </span>
                   </td>
                   <td>
-                    <a href="order-details.html" class="btn btn-sm btn-outline-dark py-1 px-2" title="Manage order"><i class="bi bi-eye"></i> Details</a>
+                    <a href="order-details.php" class="btn btn-sm btn-outline-dark py-1 px-2" title="Manage order"><i class="bi bi-eye"></i> Details</a>
                   </td>
                 </tr>
 
                 <tr>
-                  <td><strong><a href="order-details.html" class="text-dark">#NF-88287</a></strong></td>
+                  <td><strong><a href="order-details.php" class="text-dark">#NF-88287</a></strong></td>
                   <td>
                     <div>Zain Ul Abideen</div>
                     <small class="text-muted">Rawalpindi, Bahria Town Phase 7</small>
@@ -266,12 +266,12 @@
                     </span>
                   </td>
                   <td>
-                    <a href="order-details.html" class="btn btn-sm btn-outline-dark py-1 px-2" title="Manage order"><i class="bi bi-eye"></i> Details</a>
+                    <a href="order-details.php" class="btn btn-sm btn-outline-dark py-1 px-2" title="Manage order"><i class="bi bi-eye"></i> Details</a>
                   </td>
                 </tr>
 
                 <tr>
-                  <td><strong><a href="order-details.html" class="text-dark">#NF-88286</a></strong></td>
+                  <td><strong><a href="order-details.php" class="text-dark">#NF-88286</a></strong></td>
                   <td>
                     <div>Shahmeer Khan</div>
                     <small class="text-muted">Peshawar, Hayatabad Phase 2</small>
@@ -291,12 +291,12 @@
                     </span>
                   </td>
                   <td>
-                    <a href="order-details.html" class="btn btn-sm btn-outline-dark py-1 px-2" title="Manage order"><i class="bi bi-eye"></i> Details</a>
+                    <a href="order-details.php" class="btn btn-sm btn-outline-dark py-1 px-2" title="Manage order"><i class="bi bi-eye"></i> Details</a>
                   </td>
                 </tr>
 
                 <tr>
-                  <td><strong><a href="order-details.html" class="text-dark">#NF-88285</a></strong></td>
+                  <td><strong><a href="order-details.php" class="text-dark">#NF-88285</a></strong></td>
                   <td>
                     <div>Omer Farooq</div>
                     <small class="text-muted">Lahore, Gulberg III</small>
@@ -316,12 +316,12 @@
                     </span>
                   </td>
                   <td>
-                    <a href="order-details.html" class="btn btn-sm btn-outline-dark py-1 px-2" title="Manage order"><i class="bi bi-eye"></i> Details</a>
+                    <a href="order-details.php" class="btn btn-sm btn-outline-dark py-1 px-2" title="Manage order"><i class="bi bi-eye"></i> Details</a>
                   </td>
                 </tr>
 
                 <tr>
-                  <td><strong><a href="order-details.html" class="text-dark">#NF-88284</a></strong></td>
+                  <td><strong><a href="order-details.php" class="text-dark">#NF-88284</a></strong></td>
                   <td>
                     <div>Asad Mehmood</div>
                     <small class="text-muted">Multan, Cantt</small>
@@ -341,12 +341,12 @@
                     </span>
                   </td>
                   <td>
-                    <a href="order-details.html" class="btn btn-sm btn-outline-dark py-1 px-2" title="Manage order"><i class="bi bi-eye"></i> Details</a>
+                    <a href="order-details.php" class="btn btn-sm btn-outline-dark py-1 px-2" title="Manage order"><i class="bi bi-eye"></i> Details</a>
                   </td>
                 </tr>
 
                 <tr>
-                  <td><strong><a href="order-details.html" class="text-dark">#NF-88283</a></strong></td>
+                  <td><strong><a href="order-details.php" class="text-dark">#NF-88283</a></strong></td>
                   <td>
                     <div>Waqas Ahmed</div>
                     <small class="text-muted">Karachi, DHA Phase 6</small>
@@ -366,12 +366,12 @@
                     </span>
                   </td>
                   <td>
-                    <a href="order-details.html" class="btn btn-sm btn-outline-dark py-1 px-2" title="Manage order"><i class="bi bi-eye"></i> Details</a>
+                    <a href="order-details.php" class="btn btn-sm btn-outline-dark py-1 px-2" title="Manage order"><i class="bi bi-eye"></i> Details</a>
                   </td>
                 </tr>
 
                 <tr>
-                  <td><strong><a href="order-details.html" class="text-dark">#NF-88282</a></strong></td>
+                  <td><strong><a href="order-details.php" class="text-dark">#NF-88282</a></strong></td>
                   <td>
                     <div>Taimoor Ali</div>
                     <small class="text-muted">Sialkot, Paris Road</small>
@@ -391,12 +391,12 @@
                     </span>
                   </td>
                   <td>
-                    <a href="order-details.html" class="btn btn-sm btn-outline-dark py-1 px-2" title="Manage order"><i class="bi bi-eye"></i> Details</a>
+                    <a href="order-details.php" class="btn btn-sm btn-outline-dark py-1 px-2" title="Manage order"><i class="bi bi-eye"></i> Details</a>
                   </td>
                 </tr>
 
                 <tr>
-                  <td><strong><a href="order-details.html" class="text-dark">#NF-88281</a></strong></td>
+                  <td><strong><a href="order-details.php" class="text-dark">#NF-88281</a></strong></td>
                   <td>
                     <div>Farhan Siddiqui</div>
                     <small class="text-muted">Hyderabad, Auto Bhan</small>
@@ -416,12 +416,12 @@
                     </span>
                   </td>
                   <td>
-                    <a href="order-details.html" class="btn btn-sm btn-outline-dark py-1 px-2" title="Manage order"><i class="bi bi-eye"></i> Details</a>
+                    <a href="order-details.php" class="btn btn-sm btn-outline-dark py-1 px-2" title="Manage order"><i class="bi bi-eye"></i> Details</a>
                   </td>
                 </tr>
 
                 <tr>
-                  <td><strong><a href="order-details.html" class="text-dark">#NF-88280</a></strong></td>
+                  <td><strong><a href="order-details.php" class="text-dark">#NF-88280</a></strong></td>
                   <td>
                     <div>Kashif Rauf</div>
                     <small class="text-muted">Gujranwala, DC Colony</small>
@@ -441,7 +441,7 @@
                     </span>
                   </td>
                   <td>
-                    <a href="order-details.html" class="btn btn-sm btn-outline-dark py-1 px-2" title="Manage order"><i class="bi bi-eye"></i> Details</a>
+                    <a href="order-details.php" class="btn btn-sm btn-outline-dark py-1 px-2" title="Manage order"><i class="bi bi-eye"></i> Details</a>
                   </td>
                 </tr>
 

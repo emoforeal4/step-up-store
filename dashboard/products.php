@@ -34,7 +34,7 @@
         </div>
 
         <div class="topbar-actions">
-          <a href="../front-site/index.html" target="_blank" class="btn btn-sm btn-outline-secondary d-none d-md-inline-flex align-items-center gap-1">
+          <a href="../front-site/index.php" target="_blank" class="btn btn-sm btn-outline-secondary d-none d-md-inline-flex align-items-center gap-1">
             <i class="bi bi-eye"></i> View Site
           </a>
 
@@ -47,13 +47,13 @@
               <li>
                 <h6 class="dropdown-header text-uppercase small fw-bold">Recent Alerts</h6>
               </li>
-              <li><a class="dropdown-item small py-2" href="orders.html"><i class="bi bi-bag-check text-success me-2"></i> New Order #NF-88291 received (PKR 14,999)</a></li>
-              <li><a class="dropdown-item small py-2" href="inventory.html"><i class="bi bi-exclamation-triangle text-warning me-2"></i> Low stock: Sahara Suede Chukka (9 left)</a></li>
-              <li><a class="dropdown-item small py-2" href="reviews.html"><i class="bi bi-star text-primary me-2"></i> New 5-star review pending approval</a></li>
+              <li><a class="dropdown-item small py-2" href="orders.php"><i class="bi bi-bag-check text-success me-2"></i> New Order #NF-88291 received (PKR 14,999)</a></li>
+              <li><a class="dropdown-item small py-2" href="inventory.php"><i class="bi bi-exclamation-triangle text-warning me-2"></i> Low stock: Sahara Suede Chukka (9 left)</a></li>
+              <li><a class="dropdown-item small py-2" href="reviews.php"><i class="bi bi-star text-primary me-2"></i> New 5-star review pending approval</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item text-center small text-primary fw-semibold" href="orders.html">View All Notifications</a></li>
+              <li><a class="dropdown-item text-center small text-primary fw-semibold" href="orders.php">View All Notifications</a></li>
             </ul>
           </div>
 
@@ -66,12 +66,12 @@
               </div>
             </a>
             <ul class="dropdown-menu dropdown-menu-end shadow-sm border-0">
-              <li><a class="dropdown-item" href="profile.html"><i class="bi bi-person me-2 text-muted"></i> My Profile</a></li>
-              <li><a class="dropdown-item" href="settings.html"><i class="bi bi-gear me-2 text-muted"></i> Store Settings</a></li>
+              <li><a class="dropdown-item" href="profile.php"><i class="bi bi-person me-2 text-muted"></i> My Profile</a></li>
+              <li><a class="dropdown-item" href="settings.php"><i class="bi bi-gear me-2 text-muted"></i> Store Settings</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item text-danger" href="login.html"><i class="bi bi-box-arrow-right me-2"></i> Logout</a></li>
+              <li><a class="dropdown-item text-danger" href="login.php"><i class="bi bi-box-arrow-right me-2"></i> Logout</a></li>
             </ul>
           </div>
         </div>
@@ -86,7 +86,7 @@
             <p class="page-subtitle">Manage 24 active footwear models, pricing in PKR, sizes, and stock availability.</p>
           </div>
           <div class="d-flex gap-2">
-            <a href="product-add.html" class="btn btn-sm btn-dark">
+            <a href="product-add.php" class="btn btn-sm btn-dark">
               <i class="bi bi-plus-lg me-1"></i> Add New Product
             </a>
           </div>
@@ -154,7 +154,7 @@
                     <div class="d-flex align-items-center gap-3">
                       <img src="https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?q=80&w=800&auto=format&fit=crop" class="rounded-1" style="width: 44px; height: 44px; object-fit: cover;" alt="Regal Wholecut Oxford">
                       <div>
-                        <div class="fw-semibold"><a href="product-edit.html" class="text-dark">Regal Wholecut Oxford</a></div>
+                        <div class="fw-semibold"><a href="product-edit.php" class="text-dark">Regal Wholecut Oxford</a></div>
                         <small class="text-muted">NOVA FORM Black Label</small>
                       </div>
                     </div>
@@ -173,8 +173,8 @@
                   </td>
                   <td>
                     <div class="d-flex gap-1">
-                      <a href="../front-site/product-details.html" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
-                      <a href="product-edit.html" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
+                      <a href="../front-site/product-details.php" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
+                      <a href="product-edit.php" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
                       <button class="btn btn-sm btn-outline-danger py-1 px-2 btn-trigger-delete" data-name="Regal Wholecut Oxford" data-bs-toggle="modal" data-bs-target="#deleteConfirmModal" title="Delete product"><i class="bi bi-trash"></i></button>
                     </div>
                   </td>
@@ -186,7 +186,7 @@
                     <div class="d-flex align-items-center gap-3">
                       <img src="https://images.unsplash.com/photo-1533867617858-e7b97e060509?q=80&w=800&auto=format&fit=crop" class="rounded-1" style="width: 44px; height: 44px; object-fit: cover;" alt="Sienna Burnished Penny Loafer">
                       <div>
-                        <div class="fw-semibold"><a href="product-edit.html" class="text-dark">Sienna Burnished Penny Loafer</a></div>
+                        <div class="fw-semibold"><a href="product-edit.php" class="text-dark">Sienna Burnished Penny Loafer</a></div>
                         <small class="text-muted">NOVA FORM Black Label</small>
                       </div>
                     </div>
@@ -205,8 +205,8 @@
                   </td>
                   <td>
                     <div class="d-flex gap-1">
-                      <a href="../front-site/product-details.html" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
-                      <a href="product-edit.html" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
+                      <a href="../front-site/product-details.php" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
+                      <a href="product-edit.php" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
                       <button class="btn btn-sm btn-outline-danger py-1 px-2 btn-trigger-delete" data-name="Sienna Burnished Penny Loafer" data-bs-toggle="modal" data-bs-target="#deleteConfirmModal" title="Delete product"><i class="bi bi-trash"></i></button>
                     </div>
                   </td>
@@ -218,7 +218,7 @@
                     <div class="d-flex align-items-center gap-3">
                       <img src="https://images.unsplash.com/photo-1560769629-975ec94e6a86?q=80&w=800&auto=format&fit=crop" class="rounded-1" style="width: 44px; height: 44px; object-fit: cover;" alt="Kensington Braided Tassel Loafer">
                       <div>
-                        <div class="fw-semibold"><a href="product-edit.html" class="text-dark">Kensington Braided Tassel Loafer</a></div>
+                        <div class="fw-semibold"><a href="product-edit.php" class="text-dark">Kensington Braided Tassel Loafer</a></div>
                         <small class="text-muted">NOVA FORM Artisan</small>
                       </div>
                     </div>
@@ -237,8 +237,8 @@
                   </td>
                   <td>
                     <div class="d-flex gap-1">
-                      <a href="../front-site/product-details.html" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
-                      <a href="product-edit.html" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
+                      <a href="../front-site/product-details.php" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
+                      <a href="product-edit.php" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
                       <button class="btn btn-sm btn-outline-danger py-1 px-2 btn-trigger-delete" data-name="Kensington Braided Tassel Loafer" data-bs-toggle="modal" data-bs-target="#deleteConfirmModal" title="Delete product"><i class="bi bi-trash"></i></button>
                     </div>
                   </td>
@@ -250,7 +250,7 @@
                     <div class="d-flex align-items-center gap-3">
                       <img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?q=80&w=800&auto=format&fit=crop" class="rounded-1" style="width: 44px; height: 44px; object-fit: cover;" alt="Mayfair Double Monk Strap">
                       <div>
-                        <div class="fw-semibold"><a href="product-edit.html" class="text-dark">Mayfair Double Monk Strap</a></div>
+                        <div class="fw-semibold"><a href="product-edit.php" class="text-dark">Mayfair Double Monk Strap</a></div>
                         <small class="text-muted">NOVA FORM Black Label</small>
                       </div>
                     </div>
@@ -269,8 +269,8 @@
                   </td>
                   <td>
                     <div class="d-flex gap-1">
-                      <a href="../front-site/product-details.html" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
-                      <a href="product-edit.html" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
+                      <a href="../front-site/product-details.php" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
+                      <a href="product-edit.php" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
                       <button class="btn btn-sm btn-outline-danger py-1 px-2 btn-trigger-delete" data-name="Mayfair Double Monk Strap" data-bs-toggle="modal" data-bs-target="#deleteConfirmModal" title="Delete product"><i class="bi bi-trash"></i></button>
                     </div>
                   </td>
@@ -282,7 +282,7 @@
                     <div class="d-flex align-items-center gap-3">
                       <img src="https://images.unsplash.com/photo-1608256246200-53e635b5b65f?q=80&w=800&auto=format&fit=crop" class="rounded-1" style="width: 44px; height: 44px; object-fit: cover;" alt="Khyber Heritage Peshawari Chappal">
                       <div>
-                        <div class="fw-semibold"><a href="product-edit.html" class="text-dark">Khyber Heritage Peshawari Chappal</a></div>
+                        <div class="fw-semibold"><a href="product-edit.php" class="text-dark">Khyber Heritage Peshawari Chappal</a></div>
                         <small class="text-muted">NOVA FORM Heritage</small>
                       </div>
                     </div>
@@ -301,8 +301,8 @@
                   </td>
                   <td>
                     <div class="d-flex gap-1">
-                      <a href="../front-site/product-details.html" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
-                      <a href="product-edit.html" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
+                      <a href="../front-site/product-details.php" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
+                      <a href="product-edit.php" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
                       <button class="btn btn-sm btn-outline-danger py-1 px-2 btn-trigger-delete" data-name="Khyber Heritage Peshawari Chappal" data-bs-toggle="modal" data-bs-target="#deleteConfirmModal" title="Delete product"><i class="bi bi-trash"></i></button>
                     </div>
                   </td>
@@ -314,7 +314,7 @@
                     <div class="d-flex align-items-center gap-3">
                       <img src="https://images.unsplash.com/photo-1638247025967-b4e38f787b76?q=80&w=800&auto=format&fit=crop" class="rounded-1" style="width: 44px; height: 44px; object-fit: cover;" alt="Highland Burnished Chelsea Boot">
                       <div>
-                        <div class="fw-semibold"><a href="product-edit.html" class="text-dark">Highland Burnished Chelsea Boot</a></div>
+                        <div class="fw-semibold"><a href="product-edit.php" class="text-dark">Highland Burnished Chelsea Boot</a></div>
                         <small class="text-muted">NOVA FORM Urban</small>
                       </div>
                     </div>
@@ -333,8 +333,8 @@
                   </td>
                   <td>
                     <div class="d-flex gap-1">
-                      <a href="../front-site/product-details.html" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
-                      <a href="product-edit.html" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
+                      <a href="../front-site/product-details.php" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
+                      <a href="product-edit.php" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
                       <button class="btn btn-sm btn-outline-danger py-1 px-2 btn-trigger-delete" data-name="Highland Burnished Chelsea Boot" data-bs-toggle="modal" data-bs-target="#deleteConfirmModal" title="Delete product"><i class="bi bi-trash"></i></button>
                     </div>
                   </td>
@@ -346,7 +346,7 @@
                     <div class="d-flex align-items-center gap-3">
                       <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?q=80&w=800&auto=format&fit=crop" class="rounded-1" style="width: 44px; height: 44px; object-fit: cover;" alt="Veloce Minimalist Court Sneaker">
                       <div>
-                        <div class="fw-semibold"><a href="product-edit.html" class="text-dark">Veloce Minimalist Court Sneaker</a></div>
+                        <div class="fw-semibold"><a href="product-edit.php" class="text-dark">Veloce Minimalist Court Sneaker</a></div>
                         <small class="text-muted">NOVA FORM Urban</small>
                       </div>
                     </div>
@@ -365,8 +365,8 @@
                   </td>
                   <td>
                     <div class="d-flex gap-1">
-                      <a href="../front-site/product-details.html" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
-                      <a href="product-edit.html" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
+                      <a href="../front-site/product-details.php" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
+                      <a href="product-edit.php" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
                       <button class="btn btn-sm btn-outline-danger py-1 px-2 btn-trigger-delete" data-name="Veloce Minimalist Court Sneaker" data-bs-toggle="modal" data-bs-target="#deleteConfirmModal" title="Delete product"><i class="bi bi-trash"></i></button>
                     </div>
                   </td>
@@ -378,7 +378,7 @@
                     <div class="d-flex align-items-center gap-3">
                       <img src="https://images.unsplash.com/photo-1603808033192-082d6919d3e1?q=80&w=800&auto=format&fit=crop" class="rounded-1" style="width: 44px; height: 44px; object-fit: cover;" alt="Riviera Cross-Strap Leather Sandal">
                       <div>
-                        <div class="fw-semibold"><a href="product-edit.html" class="text-dark">Riviera Cross-Strap Leather Sandal</a></div>
+                        <div class="fw-semibold"><a href="product-edit.php" class="text-dark">Riviera Cross-Strap Leather Sandal</a></div>
                         <small class="text-muted">NOVA FORM Artisan</small>
                       </div>
                     </div>
@@ -397,8 +397,8 @@
                   </td>
                   <td>
                     <div class="d-flex gap-1">
-                      <a href="../front-site/product-details.html" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
-                      <a href="product-edit.html" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
+                      <a href="../front-site/product-details.php" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
+                      <a href="product-edit.php" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
                       <button class="btn btn-sm btn-outline-danger py-1 px-2 btn-trigger-delete" data-name="Riviera Cross-Strap Leather Sandal" data-bs-toggle="modal" data-bs-target="#deleteConfirmModal" title="Delete product"><i class="bi bi-trash"></i></button>
                     </div>
                   </td>
@@ -410,7 +410,7 @@
                     <div class="d-flex align-items-center gap-3">
                       <img src="https://images.unsplash.com/photo-1582898967732-7235a8e0f93a?q=80&w=800&auto=format&fit=crop" class="rounded-1" style="width: 44px; height: 44px; object-fit: cover;" alt="Westminster Wingtip Derby Brogue">
                       <div>
-                        <div class="fw-semibold"><a href="product-edit.html" class="text-dark">Westminster Wingtip Derby Brogue</a></div>
+                        <div class="fw-semibold"><a href="product-edit.php" class="text-dark">Westminster Wingtip Derby Brogue</a></div>
                         <small class="text-muted">NOVA FORM Black Label</small>
                       </div>
                     </div>
@@ -429,8 +429,8 @@
                   </td>
                   <td>
                     <div class="d-flex gap-1">
-                      <a href="../front-site/product-details.html" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
-                      <a href="product-edit.html" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
+                      <a href="../front-site/product-details.php" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
+                      <a href="product-edit.php" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
                       <button class="btn btn-sm btn-outline-danger py-1 px-2 btn-trigger-delete" data-name="Westminster Wingtip Derby Brogue" data-bs-toggle="modal" data-bs-target="#deleteConfirmModal" title="Delete product"><i class="bi bi-trash"></i></button>
                     </div>
                   </td>
@@ -442,7 +442,7 @@
                     <div class="d-flex align-items-center gap-3">
                       <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?q=80&w=800&auto=format&fit=crop" class="rounded-1" style="width: 44px; height: 44px; object-fit: cover;" alt="Amalfi Velour Suede Loafer">
                       <div>
-                        <div class="fw-semibold"><a href="product-edit.html" class="text-dark">Amalfi Velour Suede Loafer</a></div>
+                        <div class="fw-semibold"><a href="product-edit.php" class="text-dark">Amalfi Velour Suede Loafer</a></div>
                         <small class="text-muted">NOVA FORM Artisan</small>
                       </div>
                     </div>
@@ -461,8 +461,8 @@
                   </td>
                   <td>
                     <div class="d-flex gap-1">
-                      <a href="../front-site/product-details.html" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
-                      <a href="product-edit.html" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
+                      <a href="../front-site/product-details.php" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
+                      <a href="product-edit.php" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
                       <button class="btn btn-sm btn-outline-danger py-1 px-2 btn-trigger-delete" data-name="Amalfi Velour Suede Loafer" data-bs-toggle="modal" data-bs-target="#deleteConfirmModal" title="Delete product"><i class="bi bi-trash"></i></button>
                     </div>
                   </td>
@@ -474,7 +474,7 @@
                     <div class="d-flex align-items-center gap-3">
                       <img src="https://images.unsplash.com/photo-1520639888713-7851133b1ed0?q=80&w=800&auto=format&fit=crop" class="rounded-1" style="width: 44px; height: 44px; object-fit: cover;" alt="Sahara Sand Suede Chukka Boot">
                       <div>
-                        <div class="fw-semibold"><a href="product-edit.html" class="text-dark">Sahara Sand Suede Chukka Boot</a></div>
+                        <div class="fw-semibold"><a href="product-edit.php" class="text-dark">Sahara Sand Suede Chukka Boot</a></div>
                         <small class="text-muted">NOVA FORM Urban</small>
                       </div>
                     </div>
@@ -493,8 +493,8 @@
                   </td>
                   <td>
                     <div class="d-flex gap-1">
-                      <a href="../front-site/product-details.html" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
-                      <a href="product-edit.html" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
+                      <a href="../front-site/product-details.php" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
+                      <a href="product-edit.php" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
                       <button class="btn btn-sm btn-outline-danger py-1 px-2 btn-trigger-delete" data-name="Sahara Sand Suede Chukka Boot" data-bs-toggle="modal" data-bs-target="#deleteConfirmModal" title="Delete product"><i class="bi bi-trash"></i></button>
                     </div>
                   </td>
@@ -506,7 +506,7 @@
                     <div class="d-flex align-items-center gap-3">
                       <img src="https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?q=80&w=800&auto=format&fit=crop" class="rounded-1" style="width: 44px; height: 44px; object-fit: cover;" alt="Monaco Pebble-Grain Driving Shoe">
                       <div>
-                        <div class="fw-semibold"><a href="product-edit.html" class="text-dark">Monaco Pebble-Grain Driving Shoe</a></div>
+                        <div class="fw-semibold"><a href="product-edit.php" class="text-dark">Monaco Pebble-Grain Driving Shoe</a></div>
                         <small class="text-muted">NOVA FORM Artisan</small>
                       </div>
                     </div>
@@ -525,8 +525,8 @@
                   </td>
                   <td>
                     <div class="d-flex gap-1">
-                      <a href="../front-site/product-details.html" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
-                      <a href="product-edit.html" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
+                      <a href="../front-site/product-details.php" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
+                      <a href="product-edit.php" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
                       <button class="btn btn-sm btn-outline-danger py-1 px-2 btn-trigger-delete" data-name="Monaco Pebble-Grain Driving Shoe" data-bs-toggle="modal" data-bs-target="#deleteConfirmModal" title="Delete product"><i class="bi bi-trash"></i></button>
                     </div>
                   </td>
@@ -538,7 +538,7 @@
                     <div class="d-flex align-items-center gap-3">
                       <img src="https://images.unsplash.com/photo-1608256246200-53e635b5b65f?q=80&w=800&auto=format&fit=crop" class="rounded-1" style="width: 44px; height: 44px; object-fit: cover;" alt="Waziristan Kaptaan Chappal">
                       <div>
-                        <div class="fw-semibold"><a href="product-edit.html" class="text-dark">Waziristan Kaptaan Chappal</a></div>
+                        <div class="fw-semibold"><a href="product-edit.php" class="text-dark">Waziristan Kaptaan Chappal</a></div>
                         <small class="text-muted">NOVA FORM Heritage</small>
                       </div>
                     </div>
@@ -557,8 +557,8 @@
                   </td>
                   <td>
                     <div class="d-flex gap-1">
-                      <a href="../front-site/product-details.html" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
-                      <a href="product-edit.html" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
+                      <a href="../front-site/product-details.php" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
+                      <a href="product-edit.php" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
                       <button class="btn btn-sm btn-outline-danger py-1 px-2 btn-trigger-delete" data-name="Waziristan Kaptaan Chappal" data-bs-toggle="modal" data-bs-target="#deleteConfirmModal" title="Delete product"><i class="bi bi-trash"></i></button>
                     </div>
                   </td>
@@ -570,7 +570,7 @@
                     <div class="d-flex align-items-center gap-3">
                       <img src="https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?q=80&w=800&auto=format&fit=crop" class="rounded-1" style="width: 44px; height: 44px; object-fit: cover;" alt="Edinburgh Plain Toe Derby">
                       <div>
-                        <div class="fw-semibold"><a href="product-edit.html" class="text-dark">Edinburgh Plain Toe Derby</a></div>
+                        <div class="fw-semibold"><a href="product-edit.php" class="text-dark">Edinburgh Plain Toe Derby</a></div>
                         <small class="text-muted">NOVA FORM Black Label</small>
                       </div>
                     </div>
@@ -589,8 +589,8 @@
                   </td>
                   <td>
                     <div class="d-flex gap-1">
-                      <a href="../front-site/product-details.html" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
-                      <a href="product-edit.html" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
+                      <a href="../front-site/product-details.php" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
+                      <a href="product-edit.php" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
                       <button class="btn btn-sm btn-outline-danger py-1 px-2 btn-trigger-delete" data-name="Edinburgh Plain Toe Derby" data-bs-toggle="modal" data-bs-target="#deleteConfirmModal" title="Delete product"><i class="bi bi-trash"></i></button>
                     </div>
                   </td>
@@ -602,7 +602,7 @@
                     <div class="d-flex align-items-center gap-3">
                       <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=800&auto=format&fit=crop" class="rounded-1" style="width: 44px; height: 44px; object-fit: cover;" alt="Aerolight Knit Lifestyle Trainer">
                       <div>
-                        <div class="fw-semibold"><a href="product-edit.html" class="text-dark">Aerolight Knit Lifestyle Trainer</a></div>
+                        <div class="fw-semibold"><a href="product-edit.php" class="text-dark">Aerolight Knit Lifestyle Trainer</a></div>
                         <small class="text-muted">NOVA FORM Urban</small>
                       </div>
                     </div>
@@ -621,8 +621,8 @@
                   </td>
                   <td>
                     <div class="d-flex gap-1">
-                      <a href="../front-site/product-details.html" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
-                      <a href="product-edit.html" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
+                      <a href="../front-site/product-details.php" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
+                      <a href="product-edit.php" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
                       <button class="btn btn-sm btn-outline-danger py-1 px-2 btn-trigger-delete" data-name="Aerolight Knit Lifestyle Trainer" data-bs-toggle="modal" data-bs-target="#deleteConfirmModal" title="Delete product"><i class="bi bi-trash"></i></button>
                     </div>
                   </td>
@@ -634,7 +634,7 @@
                     <div class="d-flex align-items-center gap-3">
                       <img src="https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?q=80&w=800&auto=format&fit=crop" class="rounded-1" style="width: 44px; height: 44px; object-fit: cover;" alt="Savoy Quilted Velvet Mule Slipper">
                       <div>
-                        <div class="fw-semibold"><a href="product-edit.html" class="text-dark">Savoy Quilted Velvet Mule Slipper</a></div>
+                        <div class="fw-semibold"><a href="product-edit.php" class="text-dark">Savoy Quilted Velvet Mule Slipper</a></div>
                         <small class="text-muted">NOVA FORM Black Label</small>
                       </div>
                     </div>
@@ -653,8 +653,8 @@
                   </td>
                   <td>
                     <div class="d-flex gap-1">
-                      <a href="../front-site/product-details.html" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
-                      <a href="product-edit.html" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
+                      <a href="../front-site/product-details.php" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
+                      <a href="product-edit.php" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
                       <button class="btn btn-sm btn-outline-danger py-1 px-2 btn-trigger-delete" data-name="Savoy Quilted Velvet Mule Slipper" data-bs-toggle="modal" data-bs-target="#deleteConfirmModal" title="Delete product"><i class="bi bi-trash"></i></button>
                     </div>
                   </td>
@@ -666,7 +666,7 @@
                     <div class="d-flex align-items-center gap-3">
                       <img src="https://images.unsplash.com/photo-1603808033192-082d6919d3e1?q=80&w=800&auto=format&fit=crop" class="rounded-1" style="width: 44px; height: 44px; object-fit: cover;" alt="Balochi Traditional Embroidered Sandal">
                       <div>
-                        <div class="fw-semibold"><a href="product-edit.html" class="text-dark">Balochi Traditional Embroidered Sandal</a></div>
+                        <div class="fw-semibold"><a href="product-edit.php" class="text-dark">Balochi Traditional Embroidered Sandal</a></div>
                         <small class="text-muted">NOVA FORM Heritage</small>
                       </div>
                     </div>
@@ -685,8 +685,8 @@
                   </td>
                   <td>
                     <div class="d-flex gap-1">
-                      <a href="../front-site/product-details.html" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
-                      <a href="product-edit.html" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
+                      <a href="../front-site/product-details.php" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
+                      <a href="product-edit.php" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
                       <button class="btn btn-sm btn-outline-danger py-1 px-2 btn-trigger-delete" data-name="Balochi Traditional Embroidered Sandal" data-bs-toggle="modal" data-bs-target="#deleteConfirmModal" title="Delete product"><i class="bi bi-trash"></i></button>
                     </div>
                   </td>
@@ -698,7 +698,7 @@
                     <div class="d-flex align-items-center gap-3">
                       <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=800&auto=format&fit=crop" class="rounded-1" style="width: 44px; height: 44px; object-fit: cover;" alt="Himalayan Rugged Combat Boot">
                       <div>
-                        <div class="fw-semibold"><a href="product-edit.html" class="text-dark">Himalayan Rugged Combat Boot</a></div>
+                        <div class="fw-semibold"><a href="product-edit.php" class="text-dark">Himalayan Rugged Combat Boot</a></div>
                         <small class="text-muted">NOVA FORM Urban</small>
                       </div>
                     </div>
@@ -717,8 +717,8 @@
                   </td>
                   <td>
                     <div class="d-flex gap-1">
-                      <a href="../front-site/product-details.html" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
-                      <a href="product-edit.html" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
+                      <a href="../front-site/product-details.php" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
+                      <a href="product-edit.php" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
                       <button class="btn btn-sm btn-outline-danger py-1 px-2 btn-trigger-delete" data-name="Himalayan Rugged Combat Boot" data-bs-toggle="modal" data-bs-target="#deleteConfirmModal" title="Delete product"><i class="bi bi-trash"></i></button>
                     </div>
                   </td>
@@ -730,7 +730,7 @@
                     <div class="d-flex align-items-center gap-3">
                       <img src="https://images.unsplash.com/photo-1560769629-975ec94e6a86?q=80&w=800&auto=format&fit=crop" class="rounded-1" style="width: 44px; height: 44px; object-fit: cover;" alt="Verona Perforated Derby Sneaker">
                       <div>
-                        <div class="fw-semibold"><a href="product-edit.html" class="text-dark">Verona Perforated Derby Sneaker</a></div>
+                        <div class="fw-semibold"><a href="product-edit.php" class="text-dark">Verona Perforated Derby Sneaker</a></div>
                         <small class="text-muted">NOVA FORM Urban</small>
                       </div>
                     </div>
@@ -749,8 +749,8 @@
                   </td>
                   <td>
                     <div class="d-flex gap-1">
-                      <a href="../front-site/product-details.html" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
-                      <a href="product-edit.html" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
+                      <a href="../front-site/product-details.php" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
+                      <a href="product-edit.php" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
                       <button class="btn btn-sm btn-outline-danger py-1 px-2 btn-trigger-delete" data-name="Verona Perforated Derby Sneaker" data-bs-toggle="modal" data-bs-target="#deleteConfirmModal" title="Delete product"><i class="bi bi-trash"></i></button>
                     </div>
                   </td>
@@ -762,7 +762,7 @@
                     <div class="d-flex align-items-center gap-3">
                       <img src="https://images.unsplash.com/photo-1603808033192-082d6919d3e1?q=80&w=800&auto=format&fit=crop" class="rounded-1" style="width: 44px; height: 44px; object-fit: cover;" alt="Atlas Ergonomic Comfort Slide">
                       <div>
-                        <div class="fw-semibold"><a href="product-edit.html" class="text-dark">Atlas Ergonomic Comfort Slide</a></div>
+                        <div class="fw-semibold"><a href="product-edit.php" class="text-dark">Atlas Ergonomic Comfort Slide</a></div>
                         <small class="text-muted">NOVA FORM Artisan</small>
                       </div>
                     </div>
@@ -781,8 +781,8 @@
                   </td>
                   <td>
                     <div class="d-flex gap-1">
-                      <a href="../front-site/product-details.html" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
-                      <a href="product-edit.html" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
+                      <a href="../front-site/product-details.php" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
+                      <a href="product-edit.php" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
                       <button class="btn btn-sm btn-outline-danger py-1 px-2 btn-trigger-delete" data-name="Atlas Ergonomic Comfort Slide" data-bs-toggle="modal" data-bs-target="#deleteConfirmModal" title="Delete product"><i class="bi bi-trash"></i></button>
                     </div>
                   </td>
@@ -794,7 +794,7 @@
                     <div class="d-flex align-items-center gap-3">
                       <img src="https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?q=80&w=800&auto=format&fit=crop" class="rounded-1" style="width: 44px; height: 44px; object-fit: cover;" alt="Carlton Suede Outdoor Slipper">
                       <div>
-                        <div class="fw-semibold"><a href="product-edit.html" class="text-dark">Carlton Suede Outdoor Slipper</a></div>
+                        <div class="fw-semibold"><a href="product-edit.php" class="text-dark">Carlton Suede Outdoor Slipper</a></div>
                         <small class="text-muted">NOVA FORM Artisan</small>
                       </div>
                     </div>
@@ -813,8 +813,8 @@
                   </td>
                   <td>
                     <div class="d-flex gap-1">
-                      <a href="../front-site/product-details.html" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
-                      <a href="product-edit.html" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
+                      <a href="../front-site/product-details.php" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
+                      <a href="product-edit.php" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
                       <button class="btn btn-sm btn-outline-danger py-1 px-2 btn-trigger-delete" data-name="Carlton Suede Outdoor Slipper" data-bs-toggle="modal" data-bs-target="#deleteConfirmModal" title="Delete product"><i class="bi bi-trash"></i></button>
                     </div>
                   </td>
@@ -826,7 +826,7 @@
                     <div class="d-flex align-items-center gap-3">
                       <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=800&auto=format&fit=crop" class="rounded-1" style="width: 44px; height: 44px; object-fit: cover;" alt="Milano Retro High-Top Sneaker">
                       <div>
-                        <div class="fw-semibold"><a href="product-edit.html" class="text-dark">Milano Retro High-Top Sneaker</a></div>
+                        <div class="fw-semibold"><a href="product-edit.php" class="text-dark">Milano Retro High-Top Sneaker</a></div>
                         <small class="text-muted">NOVA FORM Urban</small>
                       </div>
                     </div>
@@ -845,8 +845,8 @@
                   </td>
                   <td>
                     <div class="d-flex gap-1">
-                      <a href="../front-site/product-details.html" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
-                      <a href="product-edit.html" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
+                      <a href="../front-site/product-details.php" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
+                      <a href="product-edit.php" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
                       <button class="btn btn-sm btn-outline-danger py-1 px-2 btn-trigger-delete" data-name="Milano Retro High-Top Sneaker" data-bs-toggle="modal" data-bs-target="#deleteConfirmModal" title="Delete product"><i class="bi bi-trash"></i></button>
                     </div>
                   </td>
@@ -858,7 +858,7 @@
                     <div class="d-flex align-items-center gap-3">
                       <img src="https://images.unsplash.com/photo-1533867617858-e7b97e060509?q=80&w=800&auto=format&fit=crop" class="rounded-1" style="width: 44px; height: 44px; object-fit: cover;" alt="Portofino Woven Leather Penny Loafer">
                       <div>
-                        <div class="fw-semibold"><a href="product-edit.html" class="text-dark">Portofino Woven Leather Penny Loafer</a></div>
+                        <div class="fw-semibold"><a href="product-edit.php" class="text-dark">Portofino Woven Leather Penny Loafer</a></div>
                         <small class="text-muted">NOVA FORM Black Label</small>
                       </div>
                     </div>
@@ -877,8 +877,8 @@
                   </td>
                   <td>
                     <div class="d-flex gap-1">
-                      <a href="../front-site/product-details.html" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
-                      <a href="product-edit.html" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
+                      <a href="../front-site/product-details.php" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
+                      <a href="product-edit.php" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
                       <button class="btn btn-sm btn-outline-danger py-1 px-2 btn-trigger-delete" data-name="Portofino Woven Leather Penny Loafer" data-bs-toggle="modal" data-bs-target="#deleteConfirmModal" title="Delete product"><i class="bi bi-trash"></i></button>
                     </div>
                   </td>
@@ -890,7 +890,7 @@
                     <div class="d-flex align-items-center gap-3">
                       <img src="https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?q=80&w=800&auto=format&fit=crop" class="rounded-1" style="width: 44px; height: 44px; object-fit: cover;" alt="Cambridge Cap-Toe Semi-Brogue">
                       <div>
-                        <div class="fw-semibold"><a href="product-edit.html" class="text-dark">Cambridge Cap-Toe Semi-Brogue</a></div>
+                        <div class="fw-semibold"><a href="product-edit.php" class="text-dark">Cambridge Cap-Toe Semi-Brogue</a></div>
                         <small class="text-muted">NOVA FORM Black Label</small>
                       </div>
                     </div>
@@ -909,8 +909,8 @@
                   </td>
                   <td>
                     <div class="d-flex gap-1">
-                      <a href="../front-site/product-details.html" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
-                      <a href="product-edit.html" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
+                      <a href="../front-site/product-details.php" target="_blank" class="btn btn-sm btn-outline-secondary py-1 px-2" title="View in store"><i class="bi bi-eye"></i></a>
+                      <a href="product-edit.php" class="btn btn-sm btn-outline-dark py-1 px-2" title="Edit product"><i class="bi bi-pencil"></i></a>
                       <button class="btn btn-sm btn-outline-danger py-1 px-2 btn-trigger-delete" data-name="Cambridge Cap-Toe Semi-Brogue" data-bs-toggle="modal" data-bs-target="#deleteConfirmModal" title="Delete product"><i class="bi bi-trash"></i></button>
                     </div>
                   </td>

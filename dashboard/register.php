@@ -10,7 +10,7 @@
       <form action="./actions/register_action.php" method="POST">
         <div class="mb-3">
           <label class="form-label small fw-bold">Full Name</label>
-          <input type="text" name="name" class="form-control" placeholder="M. Asif" required>
+          <input type="text" name="name" class="form-control" placeholder="Your Name" required>
         </div>
         <div class="mb-3">
           <label class="form-label small fw-bold">Official Email</label>

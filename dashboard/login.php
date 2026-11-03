@@ -45,7 +45,7 @@ unset($_SESSION['errors']);
         <div class="mb-3">
           <div class="d-flex justify-content-between">
             <label class="form-label small fw-bold text-uppercase">Password</label>
-            <a href="forgot-password.html" class="small text-muted">Forgot?</a>
+            <a href="forgot-password.php" class="small text-muted">Forgot?</a>
           </div>
           <input type="password" name="password" class="form-control" required>
         </div>
@@ -59,7 +59,7 @@ unset($_SESSION['errors']);
 
         <div class="d-flex justify-content-between small text-muted">
           <a href="register.php" class="text-muted">Register New Staff</a>
-          <a href="../front-site/index.html" class="text-muted">Back To Storefront &rarr;</a>
+          <a href="../front-site/index.php" class="text-muted">Back To Storefront &rarr;</a>
         </div>
       </form>
     </div>
