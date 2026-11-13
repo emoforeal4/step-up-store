@@ -1,6 +1,6 @@
     <aside class="admin-sidebar">
         <div class="sidebar-brand">
-            <a href="index.html" class="sidebar-brand-title text-decoration-none">
+            <a href="index.php" class="sidebar-brand-title text-decoration-none">
                 NOVA FORM <span class="badge-role">ADMIN</span>
             </a>
         </div>
@@ -8,7 +8,7 @@
             <li class="sidebar-heading">Operations</li>
 
             <li class="sidebar-item">
-                <a href="index.html" class="sidebar-link active">
+                <a href="index.php" class="sidebar-link active">
                     <i class="bi bi-grid"></i>
                     <span>Overview</span>
                 </a>
@@ -100,7 +100,7 @@
 
         </ul>
         <div class="sidebar-footer">
-            <a href="../front-site/index.html" class="btn btn-outline-light btn-sm w-100 mb-2 text-start">
+            <a href="../front-site/index.php" class="btn btn-outline-light btn-sm w-100 mb-2 text-start">
                 <i class="bi bi-box-arrow-up-right me-2"></i> Visit Storefront
             </a>
             <a href="../actions/logout_action.php" class="btn btn-dark btn-sm w-100 text-start text-danger">

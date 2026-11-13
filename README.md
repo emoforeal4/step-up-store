@@ -20,22 +20,22 @@ A comprehensive, responsive men's footwear e-commerce website with a dedicated a
 ```text
 stepupstore/
 ├── front-site/
-│   ├── index.html               # Luxury homepage (Hero, Categories, Best Sellers, Promo, New Arrivals, Reviews)
-│   ├── shop.html                # Product catalog with search, filters (size, price, category), sorting & pagination
-│   ├── category.html            # Category showcase (Formal Shoes & Loafers)
-│   ├── product-details.html     # Product detail with thumbnail gallery, EU 39-46 sizes, specs tabs, related items
-│   ├── cart.html                # Shopping bag with quantity adjustments, free shipping calculation, and item removal
-│   ├── checkout.html            # 2-column checkout with Pakistani address fields, COD & bank transfer, confirmation modal
-│   ├── login.html               # Customer sign in
-│   ├── register.html            # Customer registration
-│   ├── forgot-password.html     # Password recovery demo
-│   ├── account.html             # Customer profile & recent order overview
-│   ├── orders.html              # Customer order history table
-│   ├── order-details.html       # Order status timeline, items, and delivery address
-│   ├── wishlist.html            # Saved footwear items with quick add to bag
-│   ├── about.html               # Brand story, Goodyear-welted craftsmanship, Pakistani leather heritage
-│   ├── contact.html             # Contact form & store ateliers in Lahore, Karachi, and Islamabad
-│   ├── size-guide.html          # EU 39–46 size chart with centimeters and foot measuring guide
+│   ├── index.php                # Luxury homepage (Hero, Categories, Best Sellers, Promo, New Arrivals, Reviews)
+│   ├── shop.php                 # Product catalog with search, filters (size, price, category), sorting & pagination
+│   ├── category.php             # Category showcase (Formal Shoes & Loafers)
+│   ├── product-details.php      # Product detail with thumbnail gallery, EU 39-46 sizes, specs tabs, related items
+│   ├── cart.php                 # Shopping bag with quantity adjustments, free shipping calculation, and item removal
+│   ├── checkout.php             # 2-column checkout with Pakistani address fields, COD & bank transfer, confirmation modal
+│   ├── login.php                # Customer sign in
+│   ├── register.php             # Customer registration
+│   ├── forgot-password.php      # Password recovery demo
+│   ├── account.php              # Customer profile & recent order overview
+│   ├── orders.php               # Customer order history table
+│   ├── order-details.php        # Order status timeline, items, and delivery address
+│   ├── wishlist.php             # Saved footwear items with quick add to bag
+│   ├── about.php                # Brand story, Goodyear-welted craftsmanship, Pakistani leather heritage
+│   ├── contact.php              # Contact form & store ateliers in Lahore, Karachi, and Islamabad
+│   ├── size-guide.php           # EU 39–46 size chart with centimeters and foot measuring guide
 │   ├── assets/
 │   │   ├── css/
 │   │   │   ├── style.css        # Frontend master styles & design tokens
@@ -45,25 +45,25 @@ stepupstore/
 │   └── README.md
 │
 ├── dashboard/
-│   ├── index.html               # Executive overview with KPI cards, CSS velocity chart, recent orders, low stock
-│   ├── login.html               # Admin portal login
-│   ├── register.html            # Staff registration
-│   ├── forgot-password.html     # Password recovery
-│   ├── products.html            # 24-product catalog with search, category filters, and delete modal
-│   ├── product-add.html         # Add footwear model with EU 39-46 variant matrix, image preview, pricing
-│   ├── product-edit.html        # Prepopulated product editing form
-│   ├── categories.html          # Category hierarchy table & Add Category modal
-│   ├── brands.html              # Atelier labels (Black Label, Artisan, Heritage, Urban)
-│   ├── inventory.html           # Real-time stock levels with Low Stock badges & stock adjustment modal
-│   ├── orders.html              # Nationwide order list with status and payment filters
-│   ├── order-details.html       # Order management, tracking updates, and staff notes
-│   ├── customers.html           # Client directory with lifetime spend in PKR
-│   ├── customer-details.html    # Customer profile and purchase history
-│   ├── reviews.html             # Customer review moderation (Approve, Hide, Delete)
-│   ├── banners.html             # Store campaign banner manager
-│   ├── website-content.html     # Homepage hero, promo, and footer CMS text editor
-│   ├── settings.html            # Delivery fees (PKR 250), free delivery threshold (PKR 10,000), policies
-│   ├── profile.html             # Admin profile and credentials form
+│   ├── index.php                # Executive overview with KPI cards, CSS velocity chart, recent orders, low stock
+│   ├── login.php                # Admin portal login
+│   ├── register.php             # Staff registration
+│   ├── forgot-password.php      # Password recovery
+│   ├── products.php             # 24-product catalog with search, category filters, and delete modal
+│   ├── product-add.php          # Add footwear model with EU 39-46 variant matrix, image preview, pricing
+│   ├── product-edit.php         # Prepopulated product editing form
+│   ├── categories.php           # Category hierarchy table & Add Category modal
+│   ├── brands.php               # Atelier labels (Black Label, Artisan, Heritage, Urban)
+│   ├── inventory.php            # Real-time stock levels with Low Stock badges & stock adjustment modal
+│   ├── orders.php               # Nationwide order list with status and payment filters
+│   ├── order-details.php        # Order management, tracking updates, and staff notes
+│   ├── customers.php            # Client directory with lifetime spend in PKR
+│   ├── customer-details.php     # Customer profile and purchase history
+│   ├── reviews.php              # Customer review moderation (Approve, Hide, Delete)
+│   ├── banners.php              # Store campaign banner manager
+│   ├── website-content.php      # Homepage hero, promo, and footer CMS text editor
+│   ├── settings.php             # Delivery fees (PKR 250), free delivery threshold (PKR 10,000), policies
+│   ├── profile.php              # Admin profile and credentials form
 │   ├── assets/
 │   │   ├── css/
 │   │   │   ├── dashboard.css    # Admin master styles & dark slate sidebar
@@ -81,8 +81,8 @@ stepupstore/
 
 ### Option A: VS Code Live Server (Recommended)
 1. Open the project folder in **Visual Studio Code**.
-2. Right-click on `front-site/index.html` and choose **"Open with Live Server"**.
-3. To view the admin console, open `dashboard/index.html` with Live Server.
+2. Right-click on `front-site/index.php` and choose **"Open with Live Server"**.
+3. To view the admin console, open `dashboard/index.php` with Live Server.
 
 ### Option B: Local Web Server (Laragon / XAMPP / Python)
 - Access via your browser at `http://localhost/stepupstore/front-site/` or `http://localhost/stepupstore/dashboard/`.
@@ -98,5 +98,5 @@ stepupstore/
 - **Currency:** All prices are formatted in **PKR** (Pakistani Rupee), e.g., PKR 4,499 to PKR 16,999.
 - **Delivery:** Nationwide complimentary delivery on orders above PKR 10,000 (otherwise PKR 250).
 - **Payment:** Cash on Delivery (COD), Direct Bank Transfer (Meezan / HBL / Alfalah), and demo card payment.
-- **Shoe Sizes:** Standard European sizing **EU 39 through 46** with centimeter length conversions in `size-guide.html`.
+- **Shoe Sizes:** Standard European sizing **EU 39 through 46** with centimeter length conversions in `size-guide.php`.
 - **Traditional Footwear:** Authentic Pakistani styles included (Khyber Peshawari Chappal, Kaptaan Chappal, and Balochi sandals).
